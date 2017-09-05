@@ -1,9 +1,0 @@
-Hibernate教学版本选择Hibernate5.1.0Final版，JDK1.8。
-Hibernate课程以应用为主，理论为辅，重实践、轻理论。
-
-Hibernate课程安排：
-1.Hibernate框架的搭建和基本配置
-2.Hibernate框架的ORM基础（单表的映射）
-3.Hibernate框架关联关系的映射（多表的映射）
-4.Hibernate框架Hibernate检索策略
-5.Hibernate框架高级配置（二级缓存、注解）
