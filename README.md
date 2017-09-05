@@ -13,9 +13,17 @@ Hibernate是一个开放源代码的对象关系映射框架，它对JDBC进行�
 3. 掌握Hibernate框架的理论基础；
 4. 掌握Hibernate框架和其他框架的整合技术及开发。
 
+## 课程资料
+
+|资料|链接|
+|:---:|:---|
+|教学大纲|[<img src="./image/presentation.png" height="15" />查看](./meterials/outline.pdf)  [<img src="./image/download.png" height="15" />下载](./meterials/outline.doc) |
+|进度计划|[<img src="./image/presentation.png" height="15" />查看](./meterials/schedule.pdf)  [<img src="./image/download.png" height="15" />下载](./meterials/schedule.doc) |
+|备课记录|[<img src="./image/presentation.png" height="15" />查看](./preparelog) |
+
 ## 课程内容
 
-| 章节 | 名称 | 内容 | 课件 | 示例程序 | 
+| 章节 | 名称 | 内容 | 课件 | 课堂Demo | 
 |:---:|:---|:---|:---|:---|
 |第一章|Hibernate框架的搭建 |- 分层体系结构与持久化<br/>- 软件的模型及ORM<br/>- Hibernate介绍<br/>- 第一个Hibernate程序|[<img src="./image/presentation.png" height="15" />查看](./ch01-hibernate-architecture/ch01-hibernate-architecture.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./meterials/slides/ch01-hibernate-architecture.pptx)|1.JDBC进行持久化[<img src="./image/download.png" height="15" />下载](./ch01-hibernate-architecture/ch01-demo-01.7z)<br/>2.Hibernate进行持久化[<img src="./image/download.png" height="15" />下载](./ch01-hibernate-architecture/ch01-demo-02.7z)|
 |第二章|Hibernate单实体映射 |- 单实体映射基础<br/>- 单实体的属性映射<br/>- 单实体的对象标识符映射<br/>- 使用注解映射单实体|[<img src="./image/presentation.png" height="15" />查看](./ch02-single-entity-mapping/ch02-single-entity-mapping.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./meterials/slides/ch02-single-entity-mapping.pptx)|1.[<img src="./image/download.png" height="15" />下载](./ch02-single-entity-mapping/ch02-demo-01.7z)<br/>2.[<img src="./image/download.png" height="15" />下载](./ch02-single-entity-mapping/ch02-demo-02.7z)<br/>3.[<img src="./image/download.png" height="15" />下载](./ch02-single-entity-mapping/ch02-demo-03.7z)<br/>4.[<img src="./image/download.png" height="15" />下载](./ch02-single-entity-mapping/ch02-demo-04.7z)|

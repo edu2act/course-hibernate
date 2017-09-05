@@ -5,8 +5,8 @@
 
 | 资料 | 链接 |
 |---|---|
-|教学大纲| [<img src="../image/presentation.png" height="15" />查看](./outline.pdf) [<img src="../image/download.png" height="15" />下载](./outline.docx)|
-|进度计划| [<img src="../image/presentation.png" height="15" />查看](./schedule.pdf) [<img src="../image/download.png" height="15" />下载](./schedule.docx)|
+|教学大纲| [<img src="../image/presentation.png" height="15" />查看](./outline.pdf) [<img src="../image/download.png" height="15" />下载](./outline.doc)|
+|进度计划| [<img src="../image/presentation.png" height="15" />查看](./schedule.pdf) [<img src="../image/download.png" height="15" />下载](./schedule.doc)|
 |课件| [<img src="../image/download.png" height="15" />下载](./slides)|
 |课件.visio文件| [<img src="../image/download.png" height="15" />下载](./visio)|
 
