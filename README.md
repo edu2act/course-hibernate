@@ -1,17 +1,19 @@
-![河北师范大学软件学院](./image/logo.png)
+﻿![河北师范大学软件学院](./image/logo.png)
 
-# Hibernate框架开发
+# Java企业级应用开发（持久化框架）
 
 Hibernate是一个开放源代码的对象关系映射框架，它对JDBC进行了非常轻量级的对象封装，使得Java程序员可以随心所欲的使用对象编程思维来操纵数据库。 Hibernate可以应用在任何使用JDBC的场合，既可以在Java的客户端程序使用，也可以在Servlet/JSP的Web应用中使用，最具革命意义的是，Hibernate可以在应用EJB的J2EE架构中取代CMP，完成数据持久化的重任。
+MyBatis也是一款持久化框架，它支持自定义SQL查询、存储过程以及高级映射，也是一个对象关系映射框架，与Hibernate相比它是把实体类和SQL语句之间建立了映射关系，而Hibernate是在实体类和数据库表之间建立了映射关系。
+
 
 ## 课程目标
 
 通过本课程的学习，要求学生达到下列基本目标：
 
-1. 熟练的运用Hibernate框架进行企业应用的开发； 
-2. 深入了解Hibernate框架中的ORM概念；
-3. 掌握Hibernate框架的理论基础；
-4. 掌握Hibernate框架和其他框架的整合技术及开发。
+1. 熟练的运用Hibernate和MyBatis框架进行企业应用的开发； 
+2. 深入了解持久化框架中的ORM概念；
+3. 掌握持久化框架的理论基础；
+4. 掌握持久化框架和其他框架的整合技术及开发。
 
 ## 课程资料
 
@@ -34,4 +36,12 @@ Hibernate是一个开放源代码的对象关系映射框架，它对JDBC进行�
 |第七章|操作持久化对象 |- Session缓存<br/>- Hibernate对象的生命周期<br/>- Hibernate操作持久化对象|[<img src="./image/presentation.png" height="15" />查看](./ch07-manage-persistant-object/ch07-manage-persistant-object.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./materials/slides/ch07-manage-persistant-object.pptx)| |
 |第八章|检索方式 |- Hibernate检索方式<br/>- Hibernate检索策略|[<img src="./image/presentation.png" height="15" />查看](./ch08-retrieval-mode/ch08-retrieval-mode.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./materials/slides/ch08-retrieval-mode.pptx)|01 检索方式 [<img src="./image/download.png" height="15" />下载](./ch08-retrieval-mode/ch08-demo-01.7z)<br/>02 检索策略 [<img src="./image/download.png" height="15" />下载](./ch08-retrieval-mode/ch08-demo-02.7z)|
 |第九章|高级配置 |- Hibernate高级配置|[<img src="./image/presentation.png" height="15" />查看](./ch09-advanced-configuration/ch09-advanced-configuration.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./materials/slides/ch09-advanced-configuration.pptx)||
+|第一章|概述 |- MyBatis框架概述|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch01-overview/CH01-MyBatis-overview.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch01-overview/CH01-MyBatis-overview.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch01-overview/MyBatisCH01.zip)|
+|第二章|CURD操作 |- MyBatis的CURD操作|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch02-CURD/CH02-MyBatis-CURD.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch02-CURD/CH02-MyBatis-CURD.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch02-CURD/MyBatisCH02.zip)|
+|第三章|关联映射 |- MyBatis关联映射|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch03-relation-mapping/CH03-MyBatis-relation-mapping.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch03-relation-mapping/CH03-MyBatis-relation-mapping.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch03-relation-mapping/MyBatisCH03.zip)|
+|第四章|动态SQL |- MyBatis动态SQL|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch04-dynamic-SQL/CH04-MyBatis-dynamic-SQL.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch04-dynamic-SQL/CH04-MyBatis-dynamic-SQL.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch04-dynamic-SQL/MyBatisCH04.zip)|
+|第五章|缓存配置 |- MyBatis缓存配置|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch05-cache-configuration/CH05-MyBatis-cache-configuration.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch05-cache-configuration/CH05-MyBatis-cache-configuration.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch05-cache-configuration/MyBatisCH05.zip)|
+|第六章|其他配置 |- MyBatis其他配置|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch06-other-configuration/CH06-MyBatis-other-configuration.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch06-other-configuration/CH06-MyBatis-other-configuration.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch06-other-configuration/MyBatisCH06.zip)|
+|第七章|注解 |- MyBatis注解|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch07-annotation/CH07-MyBatis-annotation.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch07-annotation/CH07-MyBatis-annotation.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch07-annotation/MyBatisCH07.zip)|
+|第八章|集成Spring |- Spring集成MyBatis|[<img src="./image/presentation.png" height="15" />查看](./MyBatis-ch08-integration/CH08-Spring-integration.pdf) <br/>[<img src="./image/download.png" height="15" />下载](./MyBatis-ch08-integration/CH08-Spring-integration.pptx)|[<img src="./image/download.png" height="15" />下载](./MyBatis-ch08-integration/MyBatisCH08.zip)|
 
